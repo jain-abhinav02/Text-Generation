@@ -7,3 +7,9 @@ Efficient text generation models along with other Natural language processing to
 
 ## Model
 Text Generations is done as either character level modelling or word level modelling. In character level modelling, the model reads a line of text of a constant length and tries to predict the next character. The window is then shifted by a unit to generate longer sequences. Here in my project,I am using random sampling technique to pick the next character after training is completed.
+
+## Things Learnt
+1. Sampling sentences from text data
+2. Vectorise a sentence into numpy array
+3. Generate text through random sampling with Normal distribution
+4. Implementing Callbacks in Keras
